@@ -6,7 +6,20 @@ dist/
 wheels/
 *.egg-info
 
+# Python
+chatbotBackend/.venv/
+chatbotBackend/__pycache__/
+chatbotBackend/.env
+
 # Virtual environments
 .venv
 .env
 
+# Node
+robot-chatbot-ui/node_modules/
+robot-chatbot-ui/.next/
+robot-chatbot-ui/.env.local
+
+# OS/editor
+.DS_Store
+*.log
